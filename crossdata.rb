@@ -42,7 +42,7 @@ class Crossdata
         
     if chivalue > 7.815
       @linked = true
-      puts "\n" + @parent1 + " and " +  @parent2 + " are linked\n\n"
+      puts "\n" + @parent1 + " and " +  @parent2 + " are linked with chi-square value of" + chivalue.to_s + "\n\n "
       
       puts "Final report:\n" + @parent1 + " is linked to " +  @parent2
       puts "\n" + @parent2 + " is linked to " +  @parent1
